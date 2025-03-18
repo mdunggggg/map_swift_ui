@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533CD8A82D89A923002CE519 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533CD8A72D89A923002CE519 /* LocationPreviewView.swift */; };
 		53BFE30F2D86E45A009A1AED /* map_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BFE30E2D86E45A009A1AED /* map_appApp.swift */; };
 		53BFE3112D86E45A009A1AED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BFE3102D86E45A009A1AED /* ContentView.swift */; };
 		53BFE3162D86E45C009A1AED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BFE3152D86E45C009A1AED /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		533CD8A72D89A923002CE519 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		53BFE30B2D86E45A009A1AED /* map_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BFE30E2D86E45A009A1AED /* map_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map_appApp.swift; sourceTree = "<group>"; };
 		53BFE3102D86E45A009A1AED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				53BFE3272D86E7B0009A1AED /* LocationsView.swift */,
 				53BFE32D2D870D91009A1AED /* LocationsListView.swift */,
+				533CD8A72D89A923002CE519 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				53BFE3262D86E6EE009A1AED /* LocationsDummy.swift in Sources */,
 				53BFE32E2D870D91009A1AED /* LocationsListView.swift in Sources */,
+				533CD8A82D89A923002CE519 /* LocationPreviewView.swift in Sources */,
 				53BFE32A2D86EB99009A1AED /* LocationsViewModel.swift in Sources */,
 				53BFE3112D86E45A009A1AED /* ContentView.swift in Sources */,
 				53BFE3282D86E7B0009A1AED /* LocationsView.swift in Sources */,

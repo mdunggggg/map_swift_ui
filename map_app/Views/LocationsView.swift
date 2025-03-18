@@ -26,6 +26,12 @@ struct LocationsView: View {
             VStack() {
                 header
                 Spacer()
+                ForEach(vm.locations) { location in
+                    if(vm.currentLocation.id == location.id) {
+                        LocationPreviewView(location: vm.currentLocation)
+                            .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
+                    }
+                }
             }
             .padding()
         }

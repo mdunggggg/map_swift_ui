@@ -38,5 +38,19 @@ class LocationsViewModel : ObservableObject {
         }
     }
     
+    func nextButtonPressed() {
+        guard let index = locations.firstIndex(where: { location in
+            location.id == currentLocation.id
+        }) else {
+            print("Location not found")
+            return
+        }
+        
+        withAnimation(.easeInOut) {
+            currentLocation = locations[(index + 1) % locations.count]
+        }
+                
+    }
+    
     
 }

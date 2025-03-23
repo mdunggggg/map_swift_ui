@@ -21,6 +21,8 @@ class LocationsViewModel : ObservableObject {
     
     @Published var showLocationsList : Bool = false
     
+    @Published var sheetLocation : Location? = nil
+    
     init() {
         let locations = LocationsDummy.locations
         self.locations = locations
@@ -51,6 +53,7 @@ class LocationsViewModel : ObservableObject {
         }
                 
     }
+    
     
     
 }

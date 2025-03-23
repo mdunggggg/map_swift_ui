@@ -20,7 +20,20 @@ struct LocationsView: View {
     
     var body: some View {
         ZStack {
-            Map(coordinateRegion: $vm.mapRegion)
+            Map(coordinateRegion: $vm.mapRegion,
+                annotationItems: vm.locations,
+                annotationContent: { locatin in
+
+                MapAnnotation(coordinate: locatin.coordinates) {
+                    LocationMapAnnotationView()
+                        .scaleEffect(vm.currentLocation.id == locatin.id ? 1 : 0.7)
+                        .onTapGesture {
+                            withAnimation(.easeInOut) {
+                                vm.currentLocation = locatin
+                            }
+                        }
+                }
+            } )
                 .edgesIgnoringSafeArea(.all)
             
             VStack() {
@@ -34,6 +47,10 @@ struct LocationsView: View {
                 }
             }
             .padding()
+            
+        }
+        .sheet(item: $vm.sheetLocation) { location in
+            LocationDetailView(location: location)
         }
     }
 }

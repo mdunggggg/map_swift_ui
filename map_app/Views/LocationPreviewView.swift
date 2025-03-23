@@ -22,7 +22,7 @@ struct LocationPreviewView: View {
             
             VStack(spacing: 8){
                 Button(action: {
-                    
+                    vm.sheetLocation = location
                 }, label: {
                     Text("Learn more")
                         .font(.headline)

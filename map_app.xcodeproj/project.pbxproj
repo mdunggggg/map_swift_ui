@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		533CD8A82D89A923002CE519 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533CD8A72D89A923002CE519 /* LocationPreviewView.swift */; };
+		537E605F2D8FB920004A4832 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E605E2D8FB920004A4832 /* LocationDetailView.swift */; };
 		53BFE30F2D86E45A009A1AED /* map_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BFE30E2D86E45A009A1AED /* map_appApp.swift */; };
 		53BFE3112D86E45A009A1AED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BFE3102D86E45A009A1AED /* ContentView.swift */; };
 		53BFE3162D86E45C009A1AED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BFE3152D86E45C009A1AED /* Preview Assets.xcassets */; };
@@ -17,10 +18,12 @@
 		53BFE3282D86E7B0009A1AED /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BFE3272D86E7B0009A1AED /* LocationsView.swift */; };
 		53BFE32A2D86EB99009A1AED /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BFE3292D86EB99009A1AED /* LocationsViewModel.swift */; };
 		53BFE32E2D870D91009A1AED /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BFE32D2D870D91009A1AED /* LocationsListView.swift */; };
+		53F212E12D8B254F00018CD0 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F212E02D8B254F00018CD0 /* LocationMapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		533CD8A72D89A923002CE519 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		537E605E2D8FB920004A4832 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		53BFE30B2D86E45A009A1AED /* map_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BFE30E2D86E45A009A1AED /* map_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map_appApp.swift; sourceTree = "<group>"; };
 		53BFE3102D86E45A009A1AED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 		53BFE3272D86E7B0009A1AED /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		53BFE3292D86EB99009A1AED /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		53BFE32D2D870D91009A1AED /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		53F212E02D8B254F00018CD0 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				53BFE3272D86E7B0009A1AED /* LocationsView.swift */,
 				53BFE32D2D870D91009A1AED /* LocationsListView.swift */,
 				533CD8A72D89A923002CE519 /* LocationPreviewView.swift */,
+				53F212E02D8B254F00018CD0 /* LocationMapAnnotationView.swift */,
+				537E605E2D8FB920004A4832 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,12 +202,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				53BFE3262D86E6EE009A1AED /* LocationsDummy.swift in Sources */,
+				53F212E12D8B254F00018CD0 /* LocationMapAnnotationView.swift in Sources */,
 				53BFE32E2D870D91009A1AED /* LocationsListView.swift in Sources */,
 				533CD8A82D89A923002CE519 /* LocationPreviewView.swift in Sources */,
 				53BFE32A2D86EB99009A1AED /* LocationsViewModel.swift in Sources */,
 				53BFE3112D86E45A009A1AED /* ContentView.swift in Sources */,
 				53BFE3282D86E7B0009A1AED /* LocationsView.swift in Sources */,
 				53BFE3222D86E5E9009A1AED /* Location.swift in Sources */,
+				537E605F2D8FB920004A4832 /* LocationDetailView.swift in Sources */,
 				53BFE30F2D86E45A009A1AED /* map_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
